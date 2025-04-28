@@ -28,7 +28,7 @@ Free Cloud Hosting: AWS, Firebase<br>
 <h2>Secondary Priorities:</h2><br>
 Allow for link to live game (in app streaming via YouTube)<br>
 <h1>Database Schema</h1>
-<h2>**Tables Collection**</h2>
+<h2>Tables Collection</h2>
 This collection stores information about each billiards table, including its queue of players:<br>
 Document ID / Primary Key: tableId (string, unique identifier)<br>
 Fields:<br>
