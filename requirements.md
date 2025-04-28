@@ -46,17 +46,17 @@ championId: String, the user ID of the current champion (nullable if no champion
 queue: Array of strings, ordered list of user IDs waiting to play
 
 **Users Collection**
-This collection holds user profiles, including statistics and admin status:
-Document ID: userId (string, from Firebase Authentication)
-Fields:
-name: String, user's name
-email: String, user's email
-phone: Numeric, user's phone 
-apaSkillLevel: Number, user's APA skill level for chip assignment
-chips: Number, user's current chip count
-wins: Number, total wins
-losses: Number, total losses
-isAdmin: Boolean, indicates if the user is an admin
+This collection holds user profiles, including statistics and admin status:<br>
+Document ID: userId (string, from Firebase Authentication)<br>
+Fields:<br>
+name: String, user's name<br>
+email: String, user's email<br>
+phone: Numeric, user's phone <br>
+apaSkillLevel: Number, user's APA skill level for chip assignment<br>
+chips: Number, user's current chip count<br>
+wins: Number, total wins<br>
+losses: Number, total losses<br>
+isAdmin: Boolean, indicates if the user is an admin<br>
 
 
 **Game collection**
