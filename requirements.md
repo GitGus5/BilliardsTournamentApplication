@@ -18,7 +18,7 @@ Count position in queue
 Mobile application and Desktop views
 
 **Roles**
-Admin (manage tables, queues, validate results, and user data)
+Admin (manage tables, queues, validate results, and user data)<br>
 User (Control match results, join queues, view status, and receive notifications)
 
 **Authentication**
