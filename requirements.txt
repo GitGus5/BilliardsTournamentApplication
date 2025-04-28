@@ -7,4 +7,6 @@ Send text when persons turn
 Make a queue of people in line to play
 When someone Leaves a table they go to the end of the line
 
+APIs: https://api.poolplayers.com/
+
 JSON database
