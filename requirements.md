@@ -1,12 +1,20 @@
 **Funcitionality**
 Start with one billiards table and allow to add more
+
 Two people per billiards table
+
 Count wins and loses
+
 Assign chips based on APA skill level with APA API
+
 Send notification when persons turn
+
 Make a queue of people in line to play allow to move people in queue drag and drop
+
 When someone loses they lose a chip and go to the beginning of the queue
+
 Count position in queue
+
 Mobile application and Desktop views
 
 **Roles**
