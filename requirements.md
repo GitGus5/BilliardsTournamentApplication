@@ -13,10 +13,10 @@ Mobile application and Desktop views<br>
 Admin (manage tables, queues, validate results, and user data)<br>
 User (Control match results, join queues, view status, and receive notifications)<br>
 
-**Authentication**<br>
+<h1>**Authentication**</h1><br>
 Email based and optionally allow to link to APA account if supported by API<br>
 
-**Technology Stack**<br>
+<h1>**Technology Stack**</h1><br>
 Database/Backend: Firebase<br>
 Frontend: React Native<br>
 
@@ -25,10 +25,10 @@ How to tie in APA account with user account on application?
 APIs: https://api.poolplayers.com/<br>
 Free Cloud Hosting: AWS, Firebase<br>
 
-**Secondary Priorities**:<br>
+<h2>**Secondary Priorities**:</h2><br>
 Allow for link to live game (in app streaming via YouTube)<br>
-
-**Tables Collection**
+<h1>Database Schema</h1>
+<h2>**Tables Collection**</h2>
 This collection stores information about each billiards table, including its queue of players:<br>
 Document ID / Primary Key: tableId (string, unique identifier)<br>
 Fields:<br>
@@ -36,7 +36,7 @@ name: Array of strings, the table's names<br>
 championId: String, the user ID of the current champion (nullable if no champion<br>)
 queue: Array of strings, ordered list of user IDs waiting to pla<br>y
 
-**Users Collection**
+<h2>**Users Collection**</h2>
 This collection holds user profiles, including statistics and admin status:<br>
 Document ID Primary Key: userId (string, from Firebase Authentication)<br>
 Fields:<br>
@@ -50,7 +50,7 @@ losses: Number, total losses<br>
 isAdmin: Boolean, indicates if the user is an admin<br>
 
 
-**Game collection**
+<h2>**Game collection**</h2>
 auto-generated uuid for game
 tableId: String, the ID of the table where the game was played<br>
 player1Id: String, first player's user ID<br>
