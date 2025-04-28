@@ -1,4 +1,4 @@
-**Funcitionality**<br>
+<h1>**Funcitionality**</h1><br>
 Start with one billiards table and allow to add more<br>
 Two people per billiards table<br>
 Count wins and loses<br>
@@ -9,7 +9,7 @@ When someone loses they lose a chip and go to the beginning of the queue<br>
 Count position in queue<br>
 Mobile application and Desktop views<br>
 
-**Roles**<br>
+<h1>**Roles**</h1><br>
 Admin (manage tables, queues, validate results, and user data)<br>
 User (Control match results, join queues, view status, and receive notifications)<br>
 
@@ -30,7 +30,7 @@ Allow for link to live game (in app streaming via YouTube)<br>
 
 **Tables Collection**
 This collection stores information about each billiards table, including its queue of players:<br>
-Document ID: tableId (string, unique identifier)<br>
+Document ID / Primary Key: tableId (string, unique identifier)<br>
 Fields:<br>
 name: Array of strings, the table's names<br>
 championId: String, the user ID of the current champion (nullable if no champion<br>)
@@ -38,7 +38,7 @@ queue: Array of strings, ordered list of user IDs waiting to pla<br>y
 
 **Users Collection**
 This collection holds user profiles, including statistics and admin status:<br>
-Document ID: userId (string, from Firebase Authentication)<br>
+Document ID Primary Key: userId (string, from Firebase Authentication)<br>
 Fields:<br>
 name: String, user's name<br>
 email: String, user's email<br>
@@ -51,6 +51,7 @@ isAdmin: Boolean, indicates if the user is an admin<br>
 
 
 **Game collection**
+auto-generated uuid for game
 tableId: String, the ID of the table where the game was played<br>
 player1Id: String, first player's user ID<br>
 player2Id: String, second player's user ID<br>
