@@ -57,4 +57,3 @@ player1Id: String, first player's user ID<br>
 player2Id: String, second player's user ID<br>
 winnerId: String, the user ID of the winner<br>
 timestamp: Timestamp, when the game was completed<br>
-
