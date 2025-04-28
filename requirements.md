@@ -33,8 +33,8 @@ This collection stores information about each billiards table, including its que
 Document ID / Primary Key: tableId (string, unique identifier)<br>
 Fields:<br>
 name: Array of strings, the table's names<br>
-championId: String, the user ID of the current champion (nullable if no champion<br>)
-queue: Array of strings, ordered list of user IDs waiting to pla<br>y
+championId: String, the user ID of the current champion (nullable if no champion)<br>
+queue: Array of strings, ordered list of user IDs waiting to play <br>
 
 <h2>**Users Collection**</h2>
 This collection holds user profiles, including statistics and admin status:<br>
