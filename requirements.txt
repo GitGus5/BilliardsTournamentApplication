@@ -1,4 +1,5 @@
 Four tables (Maybe allow to add more)
+Allow for link to live game (in app streaming?)
 Two people per table
 Count wins and loses
 Assign chips based on APA skill level
